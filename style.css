@@ -365,6 +365,7 @@ input, textarea{
     background-color: #e4d1bc;
     border: 0px;
     box-shadow: 5px 10px 20px;
+    width: 100%;
 }
 
 button.formcontato__botao{
@@ -480,6 +481,7 @@ div.title__div{
 
 h2.title__bio{
     text-align: center;
+    margin: 6px 0px 5px;
 }
 
 h4.title__subsection{
@@ -487,7 +489,7 @@ h4.title__subsection{
 }
 img.title__profile{
     padding-right: 0px;
-    width: 30%;
+    width: 200px;
 }
 
 div.title__container{
@@ -556,6 +558,47 @@ img.experience__img{
 }
 
  /*Contacto*/
+
+ div.formcontato__contacto{
+    display: block;
+ }
+
+ div.formcontato__esquerda{
+    display: none;
+ }
+
+ img.formcontato__img{
+    display: none;
+}
+
+ div.formcontato__text{
+    width: 90%;
+    margin: auto;
+ }
+
+ h3.formcontato__subtext{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+ }
+
+ form.formcontato__form{
+    width: 70%;
+    margin: auto;
+ }
+
+ input.formcontato__input{
+    width: 100%;
+ }
+
+ textarea.formcontato__textarea{
+    width: 100%;
+ }
+
+ button.formcontato__botao{
+    
+    width: 100%;
+ }
 
 /*Footer*/
 
