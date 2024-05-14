@@ -155,6 +155,7 @@ div.about__container{
 #fotex{
     display: block;
     margin-left: 65%;
+    width: 30%;
 }
 
 .skills{
@@ -510,8 +511,8 @@ div.about__container{
     padding-top: 20px;
 }
 #fotex{
-    display: block;
-    margin-left: 25%;
+    /*display: block;*/
+    margin-left: auto
     /*width: 250px;*/  
 }
 
