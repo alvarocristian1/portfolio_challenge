@@ -362,9 +362,9 @@ div.formcontato__text{
 
 input, textarea{
     margin-bottom: 20px;
-    background-color: #e4d1bc;
+    background-color: #cbdcfb;
     border: 0px;
-    box-shadow: 5px 10px 20px;
+    box-shadow: 5px 5px 10px;
     width: 100%;
 }
 
@@ -465,7 +465,7 @@ ul.menu__list{
 }*/
 
 li.menu__list__item__contato__solo{
-    display: flex;
+    display: none;
     justify-content: end;
     margin-top: 10px;
 }
@@ -514,8 +514,9 @@ div.about__container{
 }
 #fotex{
     /*display: block;*/
-    margin-left: auto
-    /*width: 250px;*/  
+    margin-left: auto;
+    width: 50%;
+    
 }
 
 /*Skills*/
