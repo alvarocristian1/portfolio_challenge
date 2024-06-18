@@ -9,7 +9,8 @@ en las secciones señaladas */
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-   --cor-de-fundo: white;
+   /*--cor-de-fundo: rgb(240, 208, 247);*/
+   --cor-de-fundo: #ffffff;
    --cor-de-link: #9242e7;
 }
 
@@ -20,6 +21,7 @@ en las secciones señaladas */
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo);
+    /*background-image: url("assets/puchulu.jpg");*/
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
@@ -107,6 +109,13 @@ li.menu__list__item__contato__solo{
 img.title__profile{
     padding-right: 20px;
     width: 30%;
+    border-radius: 90%;
+
+    /*margin-top: 100px;  */
+    position: relative;
+    filter: drop-shadow(0px 30px 30px rgba(0,0,0,0.5));
+    /*filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));*/
+    z-index: 0;
 }
 
 h2.title__bio{
@@ -144,12 +153,15 @@ div.title__container{
 
 section.about{
     width: 100%;
+    
 }
 
 div.about__container{
     width: 90%;
     margin: auto;
-    
+
+    position: relative;  /*DEBEN TENER UNA POSITION PARA QUE FUNCIONE Z INDEX */
+    z-index: 1;
 }
 
 #fotex{
@@ -362,7 +374,8 @@ div.formcontato__text{
 
 input, textarea{
     margin-bottom: 20px;
-    background-color: #cbdcfb;
+    /*background-color: #cbdcfb;*/
+    background-color: white;
     border: 0px;
     box-shadow: 5px 5px 10px;
     width: 100%;
@@ -423,6 +436,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("assets/mar.jpg");
 }
 
 /*section{
